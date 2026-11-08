@@ -21,7 +21,10 @@ Same as `nadia-schedule-my-post` § 0: the Nadia connector (tools
 (`nadia auth status`; the user runs `! nadia auth login` themselves). **The
 API key never passes through you.**
 
-Instagram only (`identifier` `instagram-standalone` in `nadia channels`).
+Instagram only (`identifier` `instagram-standalone` in `nadia channels`). The
+user's posting profile (`.nadia/profiles.json`, then
+`~/.config/nadia/profiles.json`, see `nadia-schedule-my-post` § 1) says which
+Instagram account is theirs; several and none named: ask.
 
 ## 1. The template
 

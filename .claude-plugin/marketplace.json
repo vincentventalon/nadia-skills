@@ -8,8 +8,8 @@
   "plugins": [
     {
       "name": "nadia",
-      "description": "Piloter Nadia depuis Claude Code, une skill par tâche : nadia-schedule-my-post (programmer un post sur tes réseaux), nadia-set-up-comment-to-dm (commente un mot → DM avec le lien, sur Instagram).",
-      "version": "0.1.0",
+      "description": "Piloter Nadia depuis Claude Code, une skill par tâche : nadia-schedule-my-post (programmer un post sur tes comptes habituels, profil réglé une fois, avec l'automatisation commentaire → DM d'un coup), nadia-set-up-comment-to-dm (la poser sur un post Instagram déjà en ligne).",
+      "version": "0.2.0",
       "author": {
         "name": "Vincent Ventalon"
       },
