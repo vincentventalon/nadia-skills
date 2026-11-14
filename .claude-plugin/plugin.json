@@ -1,0 +1,31 @@
+{
+  "name": "nadia",
+  "displayName": "Nadia",
+  "version": "0.4.0",
+  "description": "Pilot Nadia (usenadia.com) from Claude: schedule-post schedules a post on your usual accounts (profile set once, the comment → DM automation chosen with the post), comment-to-dm poses that automation on an Instagram post already live. Nothing is sent without your yes on the plan.",
+  "author": {
+    "name": "Vincent Ventalon",
+    "url": "https://usenadia.com"
+  },
+  "homepage": "https://usenadia.com",
+  "repository": "https://github.com/vincentventalon/nadia-skills",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://usenadia.com/en/privacy",
+  "keywords": [
+    "nadia",
+    "usenadia",
+    "social-media",
+    "scheduling",
+    "instagram",
+    "tiktok",
+    "automation",
+    "dm"
+  ],
+  "mcpServers": {
+    "nadia": {
+      "type": "http",
+      "url": "https://app.usenadia.com/api/mcp-oauth"
+    }
+  }
+}

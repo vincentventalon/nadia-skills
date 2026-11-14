@@ -44,6 +44,10 @@ avec tes réseaux connectés. Ensuite, une des deux portes :
   [Doc de la CLI](https://usenadia.com/docs/cli/introduction?utm_source=github&utm_medium=readme&utm_campaign=nadia-skills).
 - **Le serveur MCP de Nadia**, si tu l'as déjà branché dans Claude : les skills s'en servent
   directement. [Le brancher](https://usenadia.com/docs/mcp/setup?utm_source=github&utm_medium=readme&utm_campaign=nadia-skills).
+  Le plugin déclare lui-même ce serveur (`https://app.usenadia.com/api/mcp-oauth`, connexion
+  OAuth avec ton compte Nadia) : installé depuis l'annuaire de Claude, il n'y a rien d'autre à
+  brancher. C'est la seule adresse que le plugin contacte, et il ne contient ni script ni hook.
+  [Politique de confidentialité](https://usenadia.com/privacy) · [Privacy policy](https://usenadia.com/en/privacy).
 
 ## Ton profil de publication
 
