@@ -9,7 +9,7 @@
     {
       "name": "nadia",
       "description": "Piloter Nadia depuis Claude Code, une skill par tâche : schedule-post (programmer un post sur tes comptes habituels, profil réglé une fois, avec l'automatisation commentaire → DM d'un coup), comment-to-dm (la poser sur un post Instagram déjà en ligne).",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Vincent Ventalon"
       },
