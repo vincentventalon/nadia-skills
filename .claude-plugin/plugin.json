@@ -12,6 +12,9 @@
   "license": "MIT",
   "icon": ".claude-plugin/icon.png",
   "privacyPolicyUrl": "https://usenadia.com/en/privacy",
+  "termsOfServiceUrl": "https://usenadia.com/en/terms",
+  "supportUrl": "https://usenadia.com/en/contact",
+  "documentationUrl": "https://usenadia.com/en/docs/mcp/setup",
   "keywords": [
     "nadia",
     "usenadia",
