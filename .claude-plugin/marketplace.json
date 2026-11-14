@@ -1,15 +1,15 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "nadia",
-  "description": "Les skills Claude Code de Nadia (usenadia.com) : programmer tes posts, poser une automatisation « commente un mot → reçois le lien en DM ». Toutes commencent par nadia- pour se retrouver d'un coup.",
+  "description": "Les skills Claude Code de Nadia (usenadia.com) : programmer tes posts, poser une automatisation « commente un mot → reçois le lien en DM ». Dans Claude Code : /nadia:schedule-post, /nadia:comment-to-dm.",
   "owner": {
     "name": "Vincent Ventalon"
   },
   "plugins": [
     {
       "name": "nadia",
-      "description": "Piloter Nadia depuis Claude Code, une skill par tâche : nadia-schedule-my-post (programmer un post sur tes comptes habituels, profil réglé une fois, avec l'automatisation commentaire → DM d'un coup), nadia-set-up-comment-to-dm (la poser sur un post Instagram déjà en ligne).",
-      "version": "0.2.0",
+      "description": "Piloter Nadia depuis Claude Code, une skill par tâche : schedule-post (programmer un post sur tes comptes habituels, profil réglé une fois, avec l'automatisation commentaire → DM d'un coup), comment-to-dm (la poser sur un post Instagram déjà en ligne).",
+      "version": "0.3.0",
       "author": {
         "name": "Vincent Ventalon"
       },
@@ -17,7 +17,16 @@
       "category": "social-media",
       "homepage": "https://github.com/vincentventalon/nadia-skills",
       "license": "MIT",
-      "keywords": ["nadia", "usenadia", "social-media", "scheduling", "instagram", "tiktok", "automation", "dm"],
+      "keywords": [
+        "nadia",
+        "usenadia",
+        "social-media",
+        "scheduling",
+        "instagram",
+        "tiktok",
+        "automation",
+        "dm"
+      ],
       "skills": [
         "./skills/"
       ]

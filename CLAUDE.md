@@ -4,8 +4,9 @@ Dépôt public (MIT) des skills Claude Code de Nadia : `vincentventalon/nadia-sk
 `nadia`, un plugin `nadia`. Vit dans `~/Code/cockpit/nadia-skills/` (repo git à part, ignoré par le
 cockpit), comme `public-skills/`.
 
-- **Chaque skill commence par `nadia-`**, puis dit ce qu'elle fait en mots (`nadia-schedule-my-post`).
-  Le dossier = le `name:` du SKILL.md.
+- **Un nom court, en mots, sans préfixe de marque** (`schedule-post`, `comment-to-dm`) : le plugin
+  donne déjà `/nadia:` devant chaque skill, un `nadia-` ferait doublon (préfixe retiré le
+  2026-11-14, choix de Vincent). Le dossier = le `name:` du SKILL.md.
 - **Aucune clé, aucun secret.** Une skill passe par le connecteur Nadia ou par la CLI
   `@usenadia/cli` (`nadia auth login` lancé par l'utilisateur) ; jamais `--api-key` en ligne de
   commande, jamais un chemin de `_secrets/`.

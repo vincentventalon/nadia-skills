@@ -1,10 +1,10 @@
 ---
-name: nadia-schedule-my-post
+name: schedule-post
 description: Schedules a post through Nadia (usenadia.com) on the user's usual accounts - a posting profile set once (their workspaces and the accounts they post to, time zone, scheduled or draft) so they never pick accounts again, each channel's rules, the next free slot, the text of each platform, and on Instagram always the question of which "comment a word → DM" automation to put on the post (a numbered list: the same as a recent post, each active template, or none); shows the plan, then after the user's yes schedules the post and its automation in one go, with the Nadia CLI or connector, and reads it back. Never "publish now" unless asked. Use when the user says "programme ce post", "poste ça", "programme-le avec l'automatisation", "quelle automatisation je mets ?", "mets-le en brouillon dans Nadia", "change mes comptes par défaut", "schedule this post", "schedule it with the DM automation", "post this on LinkedIn tomorrow at 9", or hands a video, images or a text to put out.
 argument-hint: "[file | text] [when] [channels]"
 ---
 
-# nadia-schedule-my-post
+# schedule-post
 
 One post out, on the user's own channels, through Nadia. **Nothing is
 scheduled, drafted or published before the user's explicit yes on the plan
@@ -228,7 +228,7 @@ again.
 - An automation scheduled with the post: once it is live,
   `nadia list-channel-automation-poses --integration-id <igId>` shows its
   pose; a comment from another account is the real test. Who got the DM,
-  changing a word or a link afterwards: `nadia-set-up-comment-to-dm`.
-- An automation forgotten on a post already live: `nadia-set-up-comment-to-dm`.
+  changing a word or a link afterwards: `comment-to-dm`.
+- An automation forgotten on a post already live: `comment-to-dm`.
 - Undo a post scheduled by mistake: `nadia delete-post <postId>`, only on
   the user's request.
